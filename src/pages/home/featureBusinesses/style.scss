@@ -1,0 +1,80 @@
+.featureBusinessContainer{
+    padding: 20px;
+    background-color: #F96503;
+    
+    .featureBusiness{
+        h2{
+            color: #fff;
+            text-align: center;
+        }
+        .featureBusinessSliderContainer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .featureBusinessSlider{
+                width: 80%;
+                .slick-slide > div{
+                    margin: 20px;
+                }
+
+            
+
+                .featureBusinessCardContainer{
+                    border-radius: 10px;
+                    overflow: hidden;
+                    
+                    .featureBusinessCard{
+                        .featureBusinessCardTop{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .featureBusiessCardBottom{
+                            display: flex;
+                            .featureBusiessCardBottomLeft{
+                                width: 25%;
+                                
+                            }
+                            .featureBusiessCardBottomRgiht{
+                                background-color: white;
+                                width: 75%;
+                                text-align: left;
+                                padding: 12px;
+
+                                h2{
+                                    color: black;
+                                    text-align: left;
+                                    margin: 0px;
+                                    font-size: 16px;
+                                }
+                                p{
+                                    margin: 0px;
+                                }
+
+                            }
+                        }
+
+                    }
+
+                }
+            }
+        }
+        .buttonView{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            button{
+                padding: 10px 20px;
+                color: black;
+                background-color: white;
+                border: none;
+                border-radius: 20px;
+                cursor: pointer;
+                box-shadow: 0px 8px 12px 0px #00000040;
+
+}
+        }
+
+    }
+
+}

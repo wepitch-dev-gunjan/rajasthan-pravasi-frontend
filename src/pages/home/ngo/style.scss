@@ -1,0 +1,40 @@
+.ngoContainer{
+    height: 600px;
+    .ngo{
+        padding: 5px 40px;
+        height: 100%;
+        background-image: url('./../../../assets/ngo.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        .ngoBoxItem{
+            height: 200px;
+            width: 200px;
+            padding: 20px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left  ;
+            justify-content: center;
+            background-image: url('./../../../assets/ngomask.png');
+
+            h2{
+                color: white;
+                font-size: 18px;
+                padding: 0px;
+                margin: 4px;
+            }
+            p{
+                margin: 4px;
+              
+                color: white;
+            }
+        }
+    }
+}

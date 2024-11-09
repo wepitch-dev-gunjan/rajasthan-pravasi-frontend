@@ -1,0 +1,100 @@
+.blogContainer{
+    padding: 20px;
+    @media (max-width: 768px) {
+        padding: 2px;
+
+       }
+    .blogSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .blogSlider{
+            padding: 30px;
+            width: 75%;
+
+            @media (max-width: 768px) {
+                padding: 20px;
+
+ 
+               }
+            .blogSlickContainer{
+                padding: 10px;
+            }
+
+            .slick-slide > div {
+                margin: 0 18px;
+                @media (max-width: 768px) {
+                    
+                    margin: 0 5px;
+
+     
+                   }
+            }
+            
+            .blogBoxContainer{
+                width: 100%;
+                border-radius: 5px;
+                position: relative;
+                overflow: auto;
+                box-shadow: 0px 4px 4px 0px #00000040;
+
+                
+                img{
+                    width: 100%;
+                }
+                .typeOfBlog{
+                    background-color: #F96503;
+                    color: white;
+                    border-radius: 5px;
+                    padding: 2px 10px;
+                    font-size: 12px;
+                    position: absolute;
+                    top: 5px;
+                    left: 5px;
+                }
+                .blogBoxContent{
+                    padding: 8px;
+                    h2{
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: #F96503;                        ;
+                    }
+                    p{
+                        font-size: 12px;
+                        font-weight: 400;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .blogDetail{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        .blogDetailLeft{
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+                            margin: 0px;
+                            p{
+                                font-size: 14px;
+                                font-weight: 600;
+                            }
+                            img{
+                                width: 20px;
+                                height: 20px;
+                                border-radius: 50%;
+                            }
+                        }
+                        .blogDetailRight{
+                            p{
+                                font-size: 12px;
+                                font-weight: 500;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.footer-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items:   center;
+    background-color: #292929;
+    padding:  50px 20px;
+    color: white;
+    h6{
+        color: #F96503;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: jost;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        font-size: 14px;
+        font-weight: 400;
+        color: #FFFAFA;
+    }
+
+
+    .footer-box1{
+
+    }
+    .footer-box2{
+        
+    }
+    .footer-box3{
+        
+    }
+    .footer-box4{
+        .qrcode-footer{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .qrcodeScanner{
+                width: 80px;
+            }
+
+            .appstore{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a{
+                    img{
+                        width: 50px;
+                    }
+                }
+            }
+        }
+    }
+}

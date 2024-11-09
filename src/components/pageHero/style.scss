@@ -1,0 +1,29 @@
+.bannerHero{
+    height: 350px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px;
+    background-color: bisque;
+    align-items: end;
+    background-image: url('./../../assets/backgroundImage.jpg');
+    background-position: center;
+    .bannerHeroBox{
+        width: 19%;
+        height: 70%;
+        // background-color: blue;
+        background-image: url('./../../assets/bannerVector.PNG');
+        background-position: center bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1{
+            background: -webkit-linear-gradient(#BD0A43, #FE6302);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+    }
+}

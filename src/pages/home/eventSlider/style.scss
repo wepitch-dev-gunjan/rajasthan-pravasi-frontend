@@ -1,0 +1,158 @@
+.eventSliderContainer{
+    padding: 0px;
+    background-color: #E3449F ;
+    ;
+    // background-color: floralwhite;
+    
+    @media (max-width: 768px) {
+        padding: 10px;
+
+
+       }
+
+    .eventSlider{
+        background: url('../../../assets/mountain.png');
+        display: flex;
+        flex-direction: column;
+        
+        
+        justify-content: center;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+
+    
+        .eventSliderTop{
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            .leftContentEventSlider{
+                font-size: 36px;
+                color: white;
+                font-weight: 700;
+            }
+            .rightContentEventSlider{
+                
+            }
+        }
+
+        .eventSliderBottom{
+            padding: 20px;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+
+            @media (max-width: 768px) {
+                padding: 5px;
+
+ 
+               }
+            .eventSliderBottomSlides{
+                width: 80%;
+                padding: 20px;
+
+                .slick-slide > div{
+                    margin: 10px;
+                }
+
+                .eventSliderBoxContainer{
+                    border-radius: 10px;
+                    overflow: hidden;
+                    
+                    
+                    .eventSliderBox{
+                      
+                        border-radius: 10px;
+
+                        .eventSliderBoxTop{
+
+                            img{
+                                width: 100%;
+                            }
+                        }
+
+                        .eventSliderBoxBottom{
+                            display: flex;
+                        .eventSliderBoxBottomLeft{
+                            color: white;
+                            width: 25%;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 8px;
+                            h4{
+                                font-size: 20px;
+                                margin: 0px;
+                                @media (max-width: 768px) {
+                                    font-size: 14px;
+                     
+                                   }
+                            }
+                            h5{
+                                margin: 0px;
+                                @media (max-width: 768px) {
+                                    font-size: 12px;
+                     
+                                   }
+                            }
+                            p{
+                                font-size: 12px;
+                                margin: 0px;
+                                @media (max-width: 768px) {
+                                    font-size: 10px;
+                     
+                                   }
+                            }
+                            
+
+                        }
+                        .eventSliderBoxBottomRight{
+                            width: 75%;
+                            border-radius: 0px 0px 0px 10px;
+                            background-color: white;
+                            padding: 12px;
+                            h4{
+                                font-size: 16px;
+                                margin: 0px;
+                                @media (max-width: 768px) {
+                                    font-size: 12px;
+                     
+                                   }
+                            }
+                            p{
+                                font-size: 12px;
+                                margin: 0px;
+                                @media (max-width: 768px) {
+                                    font-size: 10px;
+                     
+                                   }
+
+                            }
+                            span{
+                                font-size: 10px;
+                                font-weight: 500;
+                                @media (max-width: 768px) {
+                                    font-size: 8px;
+                     
+                                   }
+                            }
+                        }
+
+                        }
+                    }
+                }
+
+            }
+            
+           
+            
+        }
+    }    
+}

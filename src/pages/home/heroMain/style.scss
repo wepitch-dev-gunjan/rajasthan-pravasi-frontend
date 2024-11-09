@@ -1,0 +1,43 @@
+.HeroMainContainer{
+    background: url('../../../assets/mahal.JPG');
+    background-position: center;
+    filter: brightness(0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70Vh;
+    padding: 40px;
+
+    .HeroMain{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        height:100%;
+        .HeroMainContent{
+            width: 250px;
+            height: 73%;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url('../../../assets/design12.png');
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h2{
+                font-size: 21px;
+                text-transform: uppercase;
+                text-align: center;
+                background: linear-gradient(131.41deg, #BD0A43 19.05%, #FE6302 63.6%);
+
+                // background: linear-gradient(90deg, #FF5733, #FFC300);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                
+
+            }
+            
+        }
+
+    }
+}

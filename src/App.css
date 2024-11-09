@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
-}
+*{
+  margin: 0px;
+  padding: 0px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: 'Jost', sans-serif;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.joinNowButton{
+  padding: 10px 20px;
   color: white;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(99.65deg, #5F22E2 3.95%, #BF22E2 21.24%, #FB9B2B 100%);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.whiteButton{
+  padding: 10px 20px;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 8px 12px 0px #00000040;
 }

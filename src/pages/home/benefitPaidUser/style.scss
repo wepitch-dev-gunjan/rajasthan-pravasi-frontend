@@ -1,0 +1,72 @@
+.benefitPaiduserContainer{
+    padding: 40px;
+    text-align: center;
+    background: url('../../../assets/rangoli2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (max-width: 768px) {
+        padding: 20px;
+
+      }
+    .benefitPaiduser{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+        h2{
+            color:  #F96503;
+            ;
+        }
+        p{
+            width: 60%;
+            @media (max-width: 768px) {
+                width: 95%;
+
+              }
+        }
+        .benefitContainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // overflow: scroll;
+            width: 92vw;
+            @media (max-width: 768px) {
+                flex-direction: column;
+                gap: 5px;
+ 
+               }
+
+            .benefitBox{
+                background: url('../../../assets/Group.png');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                padding: 30px;
+                width: 327px;
+                height: 329px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                
+
+
+                img{
+                    width: 20%;
+                }
+                h3{
+                    font-size: 13px;
+                    color: white;
+                }
+                p{
+                    width: 70%;
+                    color: white;
+                    
+                }
+            }
+        }
+    }
+}

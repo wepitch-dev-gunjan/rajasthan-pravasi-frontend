@@ -3,10 +3,8 @@
     // background-color: #f5f5f5;
     background-image: url('../../../assets/holy.JPG');
     background-position: bottom;
-
     background-repeat: no-repeat;
     background-size: cover;  
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,12 +25,8 @@
   
   .gallerySection {
     display: flex;
-    justify-content: center;
-    gap: 20px;
     height: 300px;
-    width: 80%;
-    overflow-x: auto;
-
+    width: 70%;
 
   }
   

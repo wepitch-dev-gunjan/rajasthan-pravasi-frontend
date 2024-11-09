@@ -23,14 +23,13 @@ const ImageGallery = () => {
         grabCursor={true}
         loop={true}
         centeredSlides={true}
-        slidesPerView={'5'}
+        slidesPerView={'4'}
         coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          scale:1,
-          modifier: 2.5,
-          slideShadows: false,
+          rotate: 0,
+        stretch: 80,
+        depth: 200,
+        modifier: 1,
+        slideShadows: false,
         }}
         pagination={false}
         modules={[EffectCoverflow, Pagination]}

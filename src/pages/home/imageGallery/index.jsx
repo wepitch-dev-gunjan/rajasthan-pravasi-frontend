@@ -29,17 +29,9 @@ const ImageGallery = () => {
         stretch: 80,
         depth: 200,
         modifier: 1,
-        slideShadows: false,
+        slideShadows: true,
         }}
         pagination={false}
-
-        breakpoints={{
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 10,
-          }
-        }}
-
         modules={[EffectCoverflow, Pagination]}
         
         className="mySwiper"

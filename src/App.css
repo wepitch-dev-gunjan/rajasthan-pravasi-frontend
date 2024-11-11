@@ -24,4 +24,9 @@ body {
   border-radius: 20px;
   cursor: pointer;
   box-shadow: 0px 8px 12px 0px #00000040;
+
+  @media (max-width: 768px) {
+    padding: 7px 20px;
+    font-weight: 600
+   }
 }

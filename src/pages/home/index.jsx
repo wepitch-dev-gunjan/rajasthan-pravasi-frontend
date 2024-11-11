@@ -15,6 +15,8 @@ import SuccessReview from './successStory'
 import HeroMain from './heroMain'
 import './style.scss'
 import Design1 from './../../assets/vector1.png'
+import Layers1 from './../../assets/Layer_1.png'
+
 
 function Home() {
 
@@ -35,8 +37,8 @@ function Home() {
     <BenefitPaidUser/>
     <FeatureBusinesses/>
     <div className="combineSection">
-      <img src={Design1} alt="" />
-
+      <img className='combineSectionImage' src={Design1} alt="" width={'100%'} />
+      <img src={Layers1} alt="" className='combineSectionImage combineSectionImage2 ' />
     <OurPartner/>
     <BlogSlider  />
     </div>

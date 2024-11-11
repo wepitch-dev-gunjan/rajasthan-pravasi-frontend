@@ -6,6 +6,12 @@
     background-color: #292929;
     padding:  50px 20px;
     color: white;
+
+    @media (max-width: 768px) {
+        flex-direction: column-reverse;
+
+
+       }
     h6{
         color: #F96503;
         font-size: 20px;
@@ -18,6 +24,9 @@
         font-size: 14px;
         font-weight: 400;
         color: #FFFAFA;
+        @media (max-width: 768px) {
+            text-align: center;
+           }
     }
 
 

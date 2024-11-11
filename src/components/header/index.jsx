@@ -35,7 +35,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="headerButton">
-    <button>Join Us</button>
+    <button className='joinNowButton'>Join Us</button>
             </div>
         </div>
 

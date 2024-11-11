@@ -37,7 +37,7 @@ const ImageGallery = () => {
               slidesPerView: 4,
             },
             0: { // Below 640px
-              slidesPerView: 1,
+              slidesPerView: 2,
             },
           }}
         >

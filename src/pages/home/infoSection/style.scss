@@ -28,6 +28,9 @@
     color: black;
     text-align: center;
     font-size: 1.1em;
+    @media screen and (max-width: 768px) {
+      max-width: 85%;
+    }
 
     
   }

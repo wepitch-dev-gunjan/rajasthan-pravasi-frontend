@@ -1,5 +1,6 @@
 .ourPartnerContainer{
     height: 300px;
+
     .ourPartner{
         display: flex;
         flex-direction: column;
@@ -9,6 +10,7 @@
 
         h1{
                 text-align: center;
+                color:#F96503 ;
         }
         .logoContainer{
             display: flex;

@@ -23,7 +23,9 @@
       height: 100%;
       position: relative;
       z-index: 2; // Ensure this stays above the overlay
-  
+      @media screen and (max-width: 768px) {
+        justify-content: center;
+      }
       .HeroMainContent {
         width: 250px;
         height: 73%;

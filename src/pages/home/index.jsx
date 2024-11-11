@@ -14,6 +14,7 @@ import FeatureBusinesses from './featureBusinesses'
 import SuccessReview from './successStory'
 import HeroMain from './heroMain'
 import './style.scss'
+import Design1 from './../../assets/vector1.png'
 
 function Home() {
 
@@ -32,9 +33,14 @@ function Home() {
     <EventCardSlider/>
     <Ngo/>
     <BenefitPaidUser/>
+    <FeatureBusinesses/>
+    <div className="combineSection">
+      <img src={Design1} alt="" />
+
     <OurPartner/>
     <BlogSlider  />
-    <FeatureBusinesses/>
+    </div>
+    
     <SuccessReview/>
     <Footer/>
     </>

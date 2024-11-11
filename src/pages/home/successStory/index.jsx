@@ -78,7 +78,7 @@ const SuccessReview = () => {
     <>
     <div className="SuccessReviewContainer">
         <div className="SuccessReview">
-            <h2>Success Stories</h2>
+            <h2>Our Success Stories</h2>
             <p>These headlines are designed to emphasize the positive outcomes and trust that Pravasi Rajasthan provides.</p>
             <div className="SuccessReviewSliderContainer">
                 <div className="SuccessReviewSlider">
@@ -92,7 +92,7 @@ const SuccessReview = () => {
                                 </span>
                                 <div className="SuccessReviewCardTop">
                                 <h2>Lakshmi Mittal</h2>
-                                <span><CiLocationOn/>22, Dr. APJ Abdul Kalam Road, New Delhi </span>
+                                <span><CiLocationOn color='#F96503'/>22, Dr. APJ Abdul Kalam Road</span>
 
                                 </div>
                                 <p>Pravasi Rajasthan gave me peace of mind during the hardest time of my life. After my father's sudden passing, the financial support we received helped us cover unexpected expenses and allowed my family to focus on healing.</p>

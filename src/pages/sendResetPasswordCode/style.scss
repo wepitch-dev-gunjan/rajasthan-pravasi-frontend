@@ -20,6 +20,9 @@
                 p{
                     text-align: center;
                     font-size: 14px;
+                    @media (max-width: 768px) {
+                        margin: 25px;
+                    }
                     a{
                         color: blue;
                         text-decoration: none;
@@ -134,6 +137,19 @@
             align-items: center;
             justify-content: space-between;
             color: #F96503;
+
+            @media (max-width: 768px) {
+                flex-direction: column;
+                width: 100%;
+                padding: 1px;
+                
+                p{
+                    margin: 0;
+                }
+                a{
+                    margin: 0;
+                }
+            }
             .termsCondition{
             color: #F96503;
             text-decoration: none;

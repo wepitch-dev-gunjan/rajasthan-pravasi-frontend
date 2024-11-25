@@ -60,6 +60,10 @@
                                 // flex-direction: column;
                                 align-items: center;
                                 gap: 5px;
+
+                                @media (max-width: 768px) {
+                                    width: 90%;
+                                }
                                 input{
                                     border: none;
                                     width: 90%;
@@ -84,6 +88,9 @@
                                 color: white;
                                 text-decoration: none;
                                 width: 100%;
+                                @media (max-width: 768px) {
+                                    width: 90%;
+                                }
                             }
                         }
                     }
@@ -114,6 +121,10 @@
             .termsCondition{
             color: #F96503;
             text-decoration: none;
+
+            @media (max-width: 768px) {
+                display: none;
+            }
                 
             }
         }
@@ -146,11 +157,17 @@
     justify-content: center;
     gap: 5px;
     align-items: center;
+    @media (max-width: 768px) {
+        width: 90%;
+    }
     
 }
 .resendOtp{
     text-align: center;
     margin-top: 20px;
+    @media (max-width: 768px) {
+        margin: 28px;
+    }
     a{
         // color: #1E4AE9;
         text-decoration: none;

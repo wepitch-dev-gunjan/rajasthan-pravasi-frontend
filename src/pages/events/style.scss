@@ -1,0 +1,121 @@
+.eventPageContainer{
+    padding: 20px;
+    .eventPage{
+        h2{
+            color:#BD0A43; 
+        }
+        .filterFormContainer{
+            .filterForm{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                overflow: scroll;
+                    
+                .commonSelect{
+                    padding:12px 10px;
+                    border-radius: 5px;
+                    margin: 5px;
+                    border: 1px solid #D9D9D9;
+                }
+                .resetFilter{
+                    padding:14px 10px;
+                    color:#F96503;
+                    width: 180px;
+                    border: 1px solid #D9D9D9;
+                }
+                .searchButton{
+                    width: 100%;
+                    border: 1px solid #D9D9D9;
+                    padding:12px 10px;
+                    border-radius: 5px;
+                    margin: 5px;
+                    display: flex;
+                    justify-content: space-between;
+                    input{
+                        border: none;
+                        &:focus{
+                            border: none;
+                            outline: none;
+                        }
+                        &::selection{
+                            border: none;
+                            outline: none;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .allEventContainer{
+            .allEvent{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                .allEventCard{
+                    width: 23%;
+
+                    @media (max-width: 768px) {
+                        width: 100%;
+                    
+                    }
+
+                    .allEventCardImage{
+                        width: 100%;
+                    }
+                    .allEventCardContent{
+                        display: flex;
+                        align-items: center;
+                        .allEventCardLeft{
+                            width: 60%;
+                            display: flex;
+                            flex-direction: column;
+                            h2{
+                                font-size: 30px;
+                                margin: 0px;
+                                color: #757575;
+                                text-align: center;
+                                font-weight: 800;
+                            }
+                            span{
+                                font-size: 15px;
+                                text-align: center;
+                                font-weight: 800;
+                                color: #757575;
+
+                            }
+                            p{
+                                font-size: 14px;
+                                color: #757575;
+                                
+                                font-weight: 700;
+                            }
+                        }
+                        .allEventCardRight{
+                            h2{
+                                margin: 0px;
+                            }
+                            p{
+                                margin: 0px;
+                                color: #757575;
+                                font-weight: 600;
+                                text-align: justify;
+
+                            }
+                            .cardLocationPrice{
+                                display: flex;
+                                margin-top: 20px;
+                                flex-direction: column;
+                                color: #757575;
+                                font-weight: 600;
+                            }
+
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

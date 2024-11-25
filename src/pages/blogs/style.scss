@@ -1,0 +1,117 @@
+.blogPageContainer{
+    padding: 20px;
+    .blogPage{
+        h2{
+            color:#BD0A43; 
+        }
+        .filterFormContainer{
+            overflow: scroll;
+            .filterForm{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                    
+                .commonSelect{
+                    padding:12px 10px;
+                    border-radius: 5px;
+                    margin: 5px;
+                    border: 1px solid #D9D9D9;
+                }
+                .resetFilter{
+                    padding:14px 10px;
+                    color:#F96503;
+                    width: 180px;
+                    border: 1px solid #D9D9D9;
+                }
+                .searchButton{
+                    width: 100%;
+                    border: 1px solid #D9D9D9;
+                    padding:12px 10px;
+                    border-radius: 5px;
+                    margin: 5px;
+                    display: flex;
+                    justify-content: space-between;
+                    input{
+                        border: none;
+                        &:focus{
+                            border: none;
+                            outline: none;
+                        }
+                        &::selection{
+                            border: none;
+                            outline: none;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .allblogContainer{
+            .allblog{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                position: relative;
+                .topicBox{
+                    position: absolute;
+                    left: 5px;
+                    background-color: #F96503;
+                    color: white;
+                    top: 5px;
+                    padding: 3px 15px;
+                    border-radius: 5px;
+                }
+                .allblogCard{
+                    border: 1px solid #E8E8EA;
+                    border-radius: 15px;
+                    width: 24%;
+
+                    @media (max-width: 768px) {
+                        width: 100%;
+                    
+                    }
+                    .allblogCardImage{
+                        width: 100%;
+                    }
+                    .allblogCardContent{
+                        padding: 10px;
+                        .blogHeading{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            h2{
+                                color: #F96503;
+                                font-size: 16px;
+                                margin: 0px;
+                            }
+                            span{
+                                font-size: 14px
+                            }
+                            
+                        }
+                        .blogProfileDate{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            .blogProfile{
+                                img{
+                                    width: 12px;
+                                    height: 12px;
+                                    border-radius: 50%;
+                                }
+
+                            }
+                            .blogDate{
+
+                            }
+                        }
+                       
+                    }
+
+                }
+            }
+        }
+    }
+}

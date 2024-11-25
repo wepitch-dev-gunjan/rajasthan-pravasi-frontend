@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 import PageHero from '../../components/pageHero'
-import AboutPravasiImage from './../../assets/frame.png'
+import AboutPravasiImage from './../../assets/collageimage.png'
 import './style.scss'
 import Sceenry from './../../assets/screnery.jpg'
 import Profile from './../../assets/profile.png'
@@ -18,13 +18,13 @@ const AboutUs = () => {
     <div className="aboutPravasi">
       <div className="aboutPravasiContainer">
         <div className="aboutPravasiLeft">
-          <img src={AboutPravasiImage} alt="" />
+          <img className='aboutPravasiLeftImage' src={AboutPravasiImage} alt="" />
         </div>
         <div className="aboutPravasiRight">
           <h2>About Pravasi Rajasthan</h2>
           <p>Pravasi Rajasthan is a community-driven initiative aimed at helping Rajasthani families living across India. We understand the emotional and financial burden that comes with the loss of a loved one, especially when far from home. With a small monthly subscription, we ensure that your family receives financial support in case of an untimely passing. <br/><br/>
           The initiative is further backed by the Rajasthan government, offering you peace of mind no matter where life takes you. Beyond financial security, Pravasi Rajasthan fosters a sense of belonging among Rajasthani families spread across India.</p>
-          <button>Join Us</button>
+          
 
         </div>
       </div>

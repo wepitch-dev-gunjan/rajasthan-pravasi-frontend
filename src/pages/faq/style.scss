@@ -3,6 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('./../../assets/rangoli.png');
+    background-position:left;
+    background-blend-mode: multiply;   
+    background-size: contain;
+    background-repeat: no-repeat;
+    
 }
 
 /* FAQ Section Container */
@@ -10,7 +16,18 @@
     min-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    @media (max-width: 768px) {
+      width: 95%;
+      padding: 10px;
+      min-width: 90%;
+      .faq-list{
+        width: 90%;
+      }
+    }
+
+
   }
+  
   
   .faq-section h2 {
     text-align: center;
@@ -58,4 +75,12 @@
   .active .faq-question {
     color: #007BFF; /* Change color for active item */
   }
-  
+  .needHelpButton{
+    background-color:#F96503;
+    border: 0;
+    font-size: 18px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    color: white;
+    margin-bottom: 20px;
+  }

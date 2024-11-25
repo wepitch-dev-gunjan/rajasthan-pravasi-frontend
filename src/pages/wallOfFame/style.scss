@@ -1,0 +1,25 @@
+.wallOfFameContainer{
+    .wallOfFame{
+        h2{
+            text-align: center;
+        }
+        .developers{
+            display: flex;
+            justify-content: center;
+            align-items: space-between;
+            gap: 20px;
+            .developersCard{
+                width: 30%;
+                object-fit: cover;
+
+                .developersCardImage{
+                    // width: 100%;
+                    object-fit: cover;
+                    
+                }
+            }
+        }
+
+    }
+
+}

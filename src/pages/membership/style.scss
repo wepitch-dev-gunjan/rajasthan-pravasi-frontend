@@ -1,0 +1,141 @@
+.membership-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+  }
+  .flowerDesign{
+    width: 300px;
+    position: absolute;
+    left: 0px;
+    transform: rotate(90deg);
+    opacity: 0.1;
+  }
+  
+  .toggle-switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .toggle-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .toggle-label span {
+    font-size: 14px;
+    cursor: pointer;
+    color: #888;
+  }
+  
+  .toggle-label span.active {
+    color: #F96503;
+    font-weight: bold;
+  }
+  
+  .slider-wrapper {
+    width: 50px;
+    height: 20px;
+    background: #ccc;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .slider {
+    width: 18px;
+    height: 18px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    transition: 0.3s;
+  }
+  
+  .slider.yearly {
+    left: 30px;
+    background: #F96503;
+  }
+  
+  .membership-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    background: #fff;
+    // box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 6px 9.4px 0px #00000033;
+
+  }
+  
+  .membership-card h2 {
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .membership-card .price-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .membership-card .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background-color: #E5E5E5;
+    padding: 9px;
+    font-size: 15px;
+    border-radius: 10px;
+    display: flex;
+    // flex-direction:column;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+  }
+  
+  .membership-card .benefits-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 10px 0;
+  }
+  
+  .membership-card .benefits-list li {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .membership-card .benefits-list li::before {
+    content: "✔";
+    margin-right: 10px;
+    color: green;
+  }
+  
+  .get-started-button {
+    background: #F96503;
+    border: 1px solid  #252525;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .get-started-button:hover {
+    background: #F96503;
+  }
+  

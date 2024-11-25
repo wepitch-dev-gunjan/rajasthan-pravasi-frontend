@@ -4,12 +4,19 @@
     
     .galleryTitle{
         padding: 10px 90px;
+        @media (max-width: 768px) {
+          padding: 10px;
+        }
         
         .galleryTitleContainer{
         display: flex;
         justify-content: space-between;
         align-items: center;
         color: #F96503;
+
+        @media (max-width: 768px) {
+          flex-direction: column;
+              }
         h2{
 
         }
@@ -39,6 +46,10 @@
     align-items: center;
     justify-content: center;
     overflow: none;
+
+    @media (max-width: 768px) {
+      padding: 2px;
+          }
 }
 .gallery {
     width: 90%;
@@ -46,6 +57,10 @@
     flex-wrap: wrap;
     gap: 16px;
     justify-content: start;
+    @media (max-width: 768px) {
+      width: 100%;
+      justify-content: center;
+          }
   }
   
   /* Individual gallery item */
@@ -55,6 +70,10 @@
     height: 350px;
     overflow: hidden;
     cursor: pointer;
+
+    @media (max-width: 768px) {
+      width: 47%;
+          }
   }
   
   /* Image styling */

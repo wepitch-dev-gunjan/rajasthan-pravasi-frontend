@@ -4,12 +4,32 @@ import Android from './../../assets/google-play-badge.webp'
 import Apple from './../../assets/apple-app-store-logo.jpg'
 import Qrcode from './../../assets/qrcodem.png'
 import '@fontsource/jost'; // Defaults to weight 400
-
+import Like from './../../assets/Like.png'
 
 
 const Footer = () => {
   return (
         <>
+        <div className="subscribeFooterContainer">
+            <div className="subscribeFooter">
+                <span className='likeContainer'>
+                    <img className='likeImage' src={Like} alt="" />
+                    </span>
+                <div className="subscribeFooterLeft">
+                Connect with Us
+                </div>
+                <div className="subscribeFooterRight">
+                    
+                        <form className="subscribeFooterRightForm" action="">
+                        <input className='subscribeInput' type="text" />
+                        <button className='subscribeButton'> Subscribe</button>
+                        </form>
+                    
+                </div>
+
+                
+            </div>
+        </div>
         <div className="footer-container">
         <div className="footer-box1">
             <h6>Connect With Pravasi</h6>

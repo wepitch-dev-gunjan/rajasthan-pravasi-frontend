@@ -1,0 +1,119 @@
+.loginContainer{
+    .loginContainerBox{
+        display: flex;
+        height: 99vh;
+        position: relative;
+        .loginBoxLeft{
+            width: 50%;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .loginBoxLeftContainer{
+                h2{
+                    background: linear-gradient(131.41deg, #BD0A43 19.05%, #FE6302 63.6%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    font-size: 14px;
+                    a{
+                        color: blue;
+                        text-decoration: none;
+                    }
+                }
+                .registerFormContainer{
+                    .registerForm{
+                        .form-group{
+                            display: flex;
+                            flex-direction: column;
+                            label{
+                                color: black;
+                                margin: 6px 0px;
+                                font-size: 12px;
+                                font-weight: 500;
+                            }
+                            .commonInput{
+                                padding: 8px;
+                                background-color: #F2F2F2;
+                                padding: 15px;
+                                border: none;
+                                border-radius: 10px;
+                                display: flex;
+                                align-items: center;
+                                gap: 5px;
+                            }
+                            
+                            
+
+                        }
+                        .checkbox-group{
+                                display: flex;
+                                flex-direction: column;
+                                // align-items: center;
+                                justify-content: center;
+                                gap: 10px;
+                                margin: 10px 0px;
+                                label{
+                                    color: black;
+                                margin: 6px 0px;
+                                font-size: 12px;
+                                // font-weight: 500;
+                                a{
+                                    color: blue;
+                                    text-decoration: none;
+                                }
+                                }
+                        }
+                        .signup-button{
+                            padding: 15px;
+                            text-align: center;
+                            background: orangered;
+                            border-radius: 5px;
+                            border: none;
+                            color: white;
+                            text-decoration: none;
+                            width: 100%;
+                        }
+                    }
+                }
+
+               
+                
+            }
+        }
+        .loginBoxRight{
+            width: 50%;
+            height: 100%;
+            .loginBoxRightImage{
+              height: 100%;
+              width: 100%;  
+              object-fit: cover;
+            }
+        }
+        .leftBottomContainer{
+            position: fixed;
+            padding: 10px;
+            bottom: 0;
+            width: 49%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #F96503;
+            .termsCondition{
+            color: #F96503;
+            text-decoration: none;
+                
+            }
+        }
+    }
+}
+
+
+
+
+
+

@@ -49,6 +49,11 @@
                             height: 60px;
                             border-radius: 50%;
                         }
+
+                        @media (max-width: 768px) {
+                            left: -18px;
+                           }
+
                     }
                     .SuccessReviewCardTop{
                         padding-left: 30px;

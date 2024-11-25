@@ -1,0 +1,111 @@
+.directoryPageContainer{
+    padding: 20px;
+    .directoryPage{
+        h2{
+            color:#BD0A43; 
+        }
+        .filterFormContainer{
+            .filterForm{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                overflow:scroll ;
+                    
+                .commonSelect{
+                    padding:12px 10px;
+                    border-radius: 5px;
+                    margin: 5px;
+                    border: 1px solid #D9D9D9;
+                }
+                .resetFilter{
+                    padding:14px 10px;
+                    color:#F96503;
+                    width: 180px;
+                    border: 1px solid #D9D9D9;
+                }
+                .searchButton{
+                    width: 100%;
+                    border: 1px solid #D9D9D9;
+                    padding:12px 10px;
+                    border-radius: 5px;
+                    margin: 5px;
+                    display: flex;
+                    justify-content: space-between;
+                    input{
+                        border: none;
+                        &:focus{
+                            border: none;
+                            outline: none;
+                        }
+                        &::selection{
+                            border: none;
+                            outline: none;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .alldirectoryContainer{
+            .alldirectory{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                position: relative;
+               
+                .alldirectoryCard{
+                    border: 1px solid #E8E8EA;
+                    border-radius: 15px;
+                    width: 24%;
+
+
+                    @media (max-width: 768px) {
+                        width: 100%;
+                            }
+                    .alldirectoryCardImage{
+                        width: 100%;
+                    }
+                    .alldirectoryCardContent{
+                        padding: 10px;
+                        .directoryHeading{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            h2{
+                                color: #F96503;
+                                font-size: 16px;
+                                margin: 0px;
+                            }
+                            span{
+                                font-size: 14px
+                            }
+                            
+                        }
+                        .directoryReviewContainer{
+                            display: flex;
+                            align-items: center;
+                            gap: 15px;
+                            p{
+                                margin: 0;
+                                color: #2525258F;
+                                font-size: 14px;
+                                font-weight: 500;
+
+                            }
+                        }
+                        .directoryLocation{
+                            display: flex;
+                            align-items: center;
+                           
+                           
+                        }
+                       
+                    }
+
+                }
+            }
+        }
+    }
+}

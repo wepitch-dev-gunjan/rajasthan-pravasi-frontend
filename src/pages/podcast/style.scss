@@ -1,0 +1,114 @@
+.podcastPageContainer{
+    padding: 20px;
+    .podcastPage{
+        h2{
+            color:#BD0A43; 
+        }
+        .filterFormContainer{
+            .filterForm{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                    
+                .commonSelect{
+                    padding:12px 10px;
+                    border-radius: 5px;
+                    margin: 5px;
+                    border: 1px solid #D9D9D9;
+                }
+               
+                .searchButton{
+                    width: 100%;
+                    border: 1px solid #D9D9D9;
+                    padding:12px 10px;
+                    border-radius: 5px;
+                    margin: 5px;
+                    display: flex;
+                    justify-content: space-between;
+                    input{
+                        border: none;
+                        &:focus{
+                            border: none;
+                            outline: none;
+                        }
+                        &::selection{
+                            border: none;
+                            outline: none;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .allpodcastContainer{
+            .allpodcast{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                position: relative;
+                .topicBox{
+                    margin-top: -20px;
+                    audio{
+                        height: 29px;
+                        width: 100%;
+                        color: black;
+                    }
+                    
+                }
+                .allpodcastCard{
+                    border: 1px solid #E8E8EA;
+                    border-radius: 15px;
+                    width: 24%;
+
+
+                    @media (max-width: 768px) {
+                        width: 100%;
+                    }
+
+                    .allpodcastCardImage{
+                        width: 100%;
+                    }
+                    .allpodcastCardContent{
+                        padding: 10px;
+                        .podcastHeading{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            h2{
+                                color: #F96503;
+                                font-size: 16px;
+                                margin: 0px;
+                            }
+                            span{
+                                font-size: 14px;
+                                color: #F96503;
+
+                            }
+                            
+                        }
+                        .podcastProfileDate{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            .podcastProfile{
+                                img{
+                                    width: 12px;
+                                    height: 12px;
+                                    border-radius: 50%;
+                                }
+
+                            }
+                            .podcastDate{
+
+                            }
+                        }
+                       
+                    }
+
+                }
+            }
+        }
+    }
+}

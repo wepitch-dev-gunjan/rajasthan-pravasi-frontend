@@ -17,26 +17,66 @@ const WallOfFame = () => {
             <div className="developers">
                 <div className="developersCard">
                     <img className='developersCardImage' src={Profile} alt="" />
-                    <h3>Sandeep</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  dummy text ever since the...</p>
+                    <div className="developerCardContent">
+                        <h3>Sandeep</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  dummy text ever since the...</p>
+                    </div>
                 </div>
-
                 <div className="developersCard">
                     <img className='developersCardImage' src={Profile} alt="" />
-                    <h3>Sandeep</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  dummy text ever since the...</p>
+                    <div className="developerCardContent">
+                        <h3>Sandeep</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  dummy text ever since the...</p>
+                    </div>
                 </div>
-
                 <div className="developersCard">
                     <img className='developersCardImage' src={Profile} alt="" />
-                    <h3>Sandeep</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  dummy text ever since the...</p>
+                    <div className="developerCardContent">
+                        <h3>Sandeep</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  dummy text ever since the...</p>
+                    </div>
                 </div>
+                
+
+                
+
+                
+            </div>
+        </div>
+
+        <div className="wallOfFame">
+            <h2>Back End Developer</h2>
+            <div className="developers">
+                <div className="developersCard">
+                    <img className='developersCardImage' src={Profile} alt="" />
+                    <div className="developerCardContent">
+                        <h3>Sandeep</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  dummy text ever since the...</p>
+                    </div>
+                </div>
+                <div className="developersCard">
+                    <img className='developersCardImage' src={Profile} alt="" />
+                    <div className="developerCardContent">
+                        <h3>Sandeep</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  dummy text ever since the...</p>
+                    </div>
+                </div>
+                <div className="developersCard">
+                    <img className='developersCardImage' src={Profile} alt="" />
+                    <div className="developerCardContent">
+                        <h3>Sandeep</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  dummy text ever since the...</p>
+                    </div>
+                </div>
+                
+
+                
 
                 
             </div>
         </div>
     </div>
+    <Footer/>
 
     </>
   )

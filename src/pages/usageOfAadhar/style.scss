@@ -1,0 +1,33 @@
+.usageOfAadharContainer{
+    padding: 20px;
+    background-image: url("./../../assets/rangoli.png");
+   
+    background-size: contain;
+    background-position: top-left;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 768px) {
+        background-size: 400px;
+    }
+    .usageOfAadharContent{
+        width: 80%;
+
+        h2{
+            font-weight: 500;
+            font-size: 20px;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            li{
+                font-size: 16px;
+                color: #252525;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}

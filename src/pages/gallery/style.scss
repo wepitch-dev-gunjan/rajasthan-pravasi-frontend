@@ -1,6 +1,15 @@
 
 .galleryPage{
     padding: 10px;
+    background-image: url("./../../assets/rangoli.png");
+   
+    background-size: contain;
+    background-position: top-left;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    @media (max-width: 768px) {
+        background-size: 400px;
+    }
     
     .galleryTitle{
         padding: 10px 90px;

@@ -1,21 +1,63 @@
 .wallOfFameContainer{
+    background-image: url("./../../assets/rangoli.png");
+   
+    background-size: contain;
+    background-position: top-left;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    @media (max-width: 768px) {
+        background-size: 400px;
+    }
     .wallOfFame{
         h2{
             text-align: center;
+            background: -webkit-linear-gradient(#BD0A43, #FE6302);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            padding: 20px;
+            font-size: 30px;
+            margin: 0px;
+
+            
         }
         .developers{
             display: flex;
             justify-content: center;
             align-items: space-between;
             gap: 20px;
+            padding: 20px;
+
+            @media (max-width: 768px) {
+                flex-direction: column;
+            }
             .developersCard{
-                width: 30%;
+                width: 25%;
                 object-fit: cover;
+                // background-color: green;
+                overflow: hidden;
+                border: 1px solid #60606040;
+                border-radius: 10px;
+
+                @media (max-width: 768px) {
+                    width: 100%;
+                }
+                
 
                 .developersCardImage{
-                    // width: 100%;
-                    object-fit: cover;
-                    
+                    width: 100%;
+                }
+                .developerCardContent{
+                    padding: 10px;
+                    h3{
+                        margin: 0px;
+                        color: #F96503;
+                        font-size: 20px;
+                    }
+                    p{
+                        margin: 0px;
+                        color: #2525258F;
+                        font-size:14px;
+                    }
                 }
             }
         }

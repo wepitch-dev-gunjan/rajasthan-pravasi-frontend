@@ -1,5 +1,14 @@
 .eventPageContainer{
     padding: 20px;
+    background-image: url("./../../assets/rangoli.png");
+   
+    background-size: contain;
+    background-position: top-left;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    @media (max-width: 768px) {
+        background-size: 400px;
+    }
     .eventPage{
         h2{
             color:#BD0A43; 
@@ -11,7 +20,9 @@
                 justify-content: center;
                 align-items: center;
                 gap: 15px;
-                overflow: scroll;
+                @media (max-width: 768px) {
+                    overflow: scroll;
+                }
                     
                 .commonSelect{
                     padding:12px 10px;
@@ -55,6 +66,9 @@
                 gap: 20px;
                 .allEventCard{
                     width: 23%;
+                    background-color: white;
+                    border: 1px solid #E8E8EA;
+                    border-radius: 10px;
 
                     @media (max-width: 768px) {
                         width: 100%;
@@ -67,6 +81,7 @@
                     .allEventCardContent{
                         display: flex;
                         align-items: center;
+                        padding: 8px;
                         .allEventCardLeft{
                             width: 60%;
                             display: flex;

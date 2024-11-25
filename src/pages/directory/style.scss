@@ -1,5 +1,15 @@
 .directoryPageContainer{
     padding: 20px;
+    background-image: url("./../../assets/rangoli.png");
+   
+    background-size: contain;
+    background-position: top-left;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    @media (max-width: 768px) {
+        background-size: 400px;
+    }
+
     .directoryPage{
         h2{
             color:#BD0A43; 
@@ -11,7 +21,9 @@
                 justify-content: center;
                 align-items: center;
                 gap: 15px;
-                overflow:scroll ;
+                @media (max-width: 768px) {
+                    overflow:scroll ;
+                }
                     
                 .commonSelect{
                     padding:12px 10px;
@@ -59,7 +71,7 @@
                     border: 1px solid #E8E8EA;
                     border-radius: 15px;
                     width: 24%;
-
+                    background-color: white;
 
                     @media (max-width: 768px) {
                         width: 100%;

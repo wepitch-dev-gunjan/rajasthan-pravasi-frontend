@@ -19,6 +19,7 @@ import ChangePassword from './pages/changePassword';
 import SendResetPassword from './pages/sendResetPasswordCode';
 import Podcast from './pages/podcast';
 import WallOfFame from './pages/wallOfFame';
+import UsageOfAadhar from './pages/usageOfAadhar';
 
 function App() {
     return (
@@ -42,6 +43,7 @@ function App() {
                 <Route path="/sendResetPassword" element={<SendResetPassword/>} />
                 <Route path="/podcast" element={<Podcast/>} />
                 <Route path="/wallOfFame" element={<WallOfFame/>} />
+                <Route path="/usageOfAadhar" element={<UsageOfAadhar/>} />
 
 
 

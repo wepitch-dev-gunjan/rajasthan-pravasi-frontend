@@ -1,11 +1,23 @@
 .blogPageContainer{
     padding: 20px;
+    background-image: url("./../../assets/rangoli.png");
+   
+    background-size: contain;
+    background-position: top-left;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    @media (max-width: 768px) {
+        background-size: 400px;
+    }
     .blogPage{
         h2{
             color:#BD0A43; 
         }
         .filterFormContainer{
-            overflow: scroll;
+            @media (max-width: 768px) {
+                
+                overflow: scroll;
+            }
             .filterForm{
                 display: flex;
                 flex-direction: row;
@@ -65,6 +77,7 @@
                 }
                 .allblogCard{
                     border: 1px solid #E8E8EA;
+                    background-color: white;
                     border-radius: 15px;
                     width: 24%;
 

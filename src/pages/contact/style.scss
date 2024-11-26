@@ -9,8 +9,8 @@
             padding: 100px;
             @media (max-width: 768px) {
                 flex-direction: column;
+                height: 100%;
             padding: 2px;
-
                     }
         .contactPageLeft{
             padding: 100px;
@@ -83,7 +83,8 @@
             align-items: flex-end;
             @media (max-width: 768px) {
                 width: 100%;
-                padding: 2px;
+                padding: 10px 2px;
+                height: 600px;
                     }
 
             

@@ -15,11 +15,11 @@ const ResetPassword = () => {
 
   return (
     <>
-    <div className="loginContainer">
-      <div className="loginContainerBox">
+    <div className="resetPasswordContainer">
+      <div className="resetPasswordContainerBox">
 
-        <div className="loginBoxLeft">
-          <div className="loginBoxLeftContainer">
+        <div className="resetPasswordBoxLeft">
+          <div className="resetPasswordBoxLeftContainer">
 
             <h2>Reset Password</h2>
             <p>Please enter your Email or Phone Number to Search
@@ -50,8 +50,8 @@ const ResetPassword = () => {
         </div>
 
 
-        <div className="loginBoxRight">
-              <img className='loginBoxRightImage' src={Namaste} alt="" />
+        <div className="resetPasswordBoxRight">
+              <img className='resetPasswordBoxRightImage' src={Namaste} alt="" />
         </div>
 
         <div className="leftBottomContainer">

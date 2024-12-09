@@ -1,16 +1,16 @@
-.loginContainer{
-    .loginContainerBox{
+.otpContainer{
+    .otpContainerBox{
         display: flex;
         height: 99vh;
         position: relative;
-        .loginBoxLeft{
+        .otpBoxLeft{
             width: 50%;
             padding: 10px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            .loginBoxLeftContainer{
+            .otpBoxLeftContainer{
                 h2{
                     background: linear-gradient(131.41deg, #BD0A43 19.05%, #FE6302 63.6%);
                     -webkit-background-clip: text;
@@ -24,16 +24,16 @@
                     ;
                 }
 
-                .loginSelection{
+                .otpSelection{
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    .loginSelectionForm{
-                        .loginSelectionContainer{
+                    .otpSelectionForm{
+                        .otpSelectionContainer{
                             display: flex;
                             justify-content: space-around;
                             align-items: center;
-                            .loginSelectionLabel{
+                            .otpSelectionLabel{
                                 width: 50%;
                                 display: flex;
                                 align-items: center;
@@ -100,10 +100,10 @@
                 
             }
         }
-        .loginBoxRight{
+        .otpBoxRight{
             width: 50%;
             height: 100%;
-            .loginBoxRightImage{
+            .otpBoxRightImage{
               height: 100%;
               width: 100%;  
               object-fit: cover;
@@ -132,7 +132,7 @@
 }
 
 
-.loginWithOther{
+.otpWithOther{
     text-align: center;
     margin: 20px 0px;
 
@@ -145,7 +145,7 @@
     } 
 
 }
-.loginWith{
+.otpWith{
     padding: 12px;
     text-align: center;
     

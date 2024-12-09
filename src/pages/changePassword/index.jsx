@@ -15,11 +15,11 @@ const ChangePassword = () => {
 
   return (
     <>
-    <div className="loginContainer">
-      <div className="loginContainerBox">
+    <div className="changePasswordContainer">
+      <div className="changePasswordContainerBox">
 
-        <div className="loginBoxLeft">
-          <div className="loginBoxLeftContainer">
+        <div className="changePasswordBoxLeft">
+          <div className="changePasswordBoxLeftContainer">
 
             <h2>Change password</h2>
             <p>Please enter new Password and Secure your account</p>
@@ -53,8 +53,8 @@ const ChangePassword = () => {
         </div>
 
 
-        <div className="loginBoxRight">
-              <img className='loginBoxRightImage' src={Namaste} alt="" />
+        <div className="changePasswordBoxRight">
+              <img className='changePasswordBoxRightImage' src={Namaste} alt="" />
         </div>
 
         <div className="leftBottomContainer">

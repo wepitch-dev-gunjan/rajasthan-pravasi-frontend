@@ -81,7 +81,7 @@ const Login = () => {
               )}
               {selectedOption === "option2" && (
                 <div className='signInEmailContainer'>
-                <form className="signInForm" action="">
+                <form className="otpInForm" action="">
                   <div className="formInput">
                   <FaPhoneAlt />
 
@@ -104,7 +104,10 @@ const Login = () => {
 {/* Tab Section End */}
             </div>
           </div>
-
+          <div className="leftBottomContainer">
+          <p>© 2024 Rajasthan Pravasi All rights reserved. </p>
+          <a className="termsCondition" href="">Terms & Conditions</a>
+        </div>
 
         </div>
 
@@ -112,13 +115,6 @@ const Login = () => {
         <div className="loginBoxRight">
               <img className='loginBoxRightImage' src={Namaste} alt="" />
         </div>
-
-        <div className="leftBottomContainer">
-          <p>© 2024 Rajasthan Pravasi All rights reserved. </p>
-          <a className="termsCondition" href="">Terms & Conditions</a>
-        </div>
-
-
       </div>
     </div>
     </>

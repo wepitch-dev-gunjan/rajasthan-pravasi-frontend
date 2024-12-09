@@ -20,9 +20,13 @@ import SendResetPassword from './pages/sendResetPasswordCode';
 import Podcast from './pages/podcast';
 import WallOfFame from './pages/wallOfFame';
 import UsageOfAadhar from './pages/usageOfAadhar';
+import './App.css';
 
 function App() {
     return (
+        <div className="WebsiteBody">
+
+        
         <Router>
             <Routes>
                 {/* Define your routes here */}
@@ -52,6 +56,8 @@ function App() {
                 {/* Add more routes as needed */}
             </Routes>
         </Router>
+
+        </div>
     );
 }
 

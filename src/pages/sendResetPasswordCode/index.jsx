@@ -17,11 +17,11 @@ const SendResetPassword = () => {
 
   return (
     <>
-    <div className="loginContainer">
-      <div className="loginContainerBox">
+    <div className="sendRestPasswordContainer">
+      <div className="sendRestPasswordContainerBox">
 
-        <div className="loginBoxLeft">
-          <div className="loginBoxLeftContainer">
+        <div className="sendRestPasswordBoxLeft">
+          <div className="sendRestPasswordBoxLeftContainer">
 
             <h2>Reset password</h2>
             <p>How do you want to get the code to reset your password</p>
@@ -72,8 +72,8 @@ const SendResetPassword = () => {
         </div>
 
 
-        <div className="loginBoxRight">
-              <img className='loginBoxRightImage' src={Namaste} alt="" />
+        <div className="sendRestPasswordBoxRight">
+              <img className='sendRestPasswordBoxRightImage' src={Namaste} alt="" />
         </div>
 
         <div className="leftBottomContainer">

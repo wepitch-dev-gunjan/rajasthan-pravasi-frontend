@@ -1,16 +1,16 @@
-.loginContainer{
-    .loginContainerBox{
+.changePasswordContainer{
+    .changePasswordContainerBox{
         display: flex;
         height: 99vh;
         position: relative;
-        .loginBoxLeft{
+        .changePasswordBoxLeft{
             width: 50%;
             padding: 10px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            .loginBoxLeftContainer{
+            .changePasswordBoxLeftContainer{
                 h2{
                     background: linear-gradient(131.41deg, #BD0A43 19.05%, #FE6302 63.6%);
                     -webkit-background-clip: text;
@@ -95,10 +95,10 @@
                 
             }
         }
-        .loginBoxRight{
+        .changePasswordBoxRight{
             width: 50%;
             height: 100%;
-            .loginBoxRightImage{
+            .changePasswordBoxRightImage{
               height: 100%;
               width: 100%;  
               object-fit: cover;

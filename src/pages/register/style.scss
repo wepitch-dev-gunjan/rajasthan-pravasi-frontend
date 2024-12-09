@@ -1,16 +1,25 @@
-.loginContainer{
-    .loginContainerBox{
+.registerContainer{
+    width: 100vw;
+    overflow: hidden;
+    .registerContainerBox{
         display: flex;
         height: 99vh;
         position: relative;
-        .loginBoxLeft{
+        @media (max-width: 768px) {
+            flex-direction:column-reverse;
+            height: 100%;
+        }
+        .registerBoxLeft{
             width: 50%;
             padding: 10px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            .loginBoxLeftContainer{
+            @media (max-width: 768px) {
+                width: 94% !important;
+            }  
+            .registerBoxLeftContainer{
                 h2{
                     background: linear-gradient(131.41deg, #BD0A43 19.05%, #FE6302 63.6%);
                     -webkit-background-clip: text;
@@ -85,27 +94,38 @@
                 
             }
         }
-        .loginBoxRight{
+        .registerBoxRight{
             width: 50%;
             height: 100%;
-            .loginBoxRightImage{
+            @media (max-width: 768px) {
+                width: 100% !important;
+                }
+            .registerBoxRightImage{
               height: 100%;
               width: 100%;  
               object-fit: cover;
             }
         }
         .leftBottomContainer{
-            position: fixed;
+            
             padding: 10px;
             bottom: 0;
-            width: 49%;
+            width: 95%;
             display: flex;
             align-items: center;
             justify-content: space-between;
             color: #F96503;
+            
+            @media (max-width: 768px) {
+                font-size: 12px;
+                flex-direction: column;
+                }
             .termsCondition{
             color: #F96503;
             text-decoration: none;
+            @media (max-width: 768px) {
+                font-size: 12px;
+                }
                 
             }
         }

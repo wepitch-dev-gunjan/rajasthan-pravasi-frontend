@@ -232,28 +232,32 @@ const Register = () => {
         <div className="registerBoxLeft">
           <div className="registerBoxLeftContainer">
             <h2>Register Account</h2>
-            <form className="registerForm" onSubmit={handleSubmit}>
-              {renderStep()}
-              <div className="checkbox-group">
-                {currentStep > 1 && (
-                  <button type="button" onClick={handlePrevious} className="signup-button">
-                    Previous
-                  </button>
-                )}
-                {currentStep < 4 && (
-                  <button type="button" onClick={handleNext} className="signup-button">
-                    Next
-                  </button>
-                )}
-                {currentStep === 4 && (
-                  <button type="submit" className="signup-button">
-                    Submit
-                  </button>
-                )}
-              </div>
-            </form>
-            {message && <p className="successMessage">{message}</p>}
-            {error && <p className="errorMessage">{error}</p>}
+            <div className="registerFormContainer">
+
+            
+              <form className="registerForm" onSubmit={handleSubmit}>
+                {renderStep()}
+                <div className="checkbox-group">
+                  {currentStep > 1 && (
+                    <button type="button" onClick={handlePrevious} className="signup-button">
+                      Previous
+                    </button>
+                  )}
+                  {currentStep < 4 && (
+                    <button type="button" onClick={handleNext} className="signup-button">
+                      Next
+                    </button>
+                  )}
+                  {currentStep === 4 && (
+                    <button type="submit" className="signup-button">
+                      Submit
+                    </button>
+                  )}
+                </div>
+              </form>
+              {message && <p className="successMessage">{message}</p>}
+              {error && <p className="errorMessage">{error}</p>}
+            </div>
           </div>
           <div className="leftBottomContainer">
             <p>© 2024 Rajasthan Pravasi All rights reserved.</p>

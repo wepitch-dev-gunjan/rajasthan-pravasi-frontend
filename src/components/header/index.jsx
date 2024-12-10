@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 import './style.scss'
 import Logo from './../../assets/images.JPG'
@@ -9,7 +10,11 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => setMenuOpen(!menuOpen);
+  const navigate = useNavigate();
 
+  const handleJoinClick = () => {
+    navigate('/register');
+  }
 
   return (
     <>
@@ -35,7 +40,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="headerButton">
-    <button className='joinNowButton'>Join Us</button>
+    <button className='joinNowButton' onClick={handleJoinClick}>Join Us</button>
             </div>
         </div>
 

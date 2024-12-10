@@ -50,7 +50,7 @@ const Register = () => {
     }
 
     try {
-      const response = await axios.post("http://13.200.63.7:8000/api/users/register", formData);
+      const response = await axios.post("https://backend.rajasthanpravasi.in/api/users/register", formData);
       setMessage(response.data.message);
       setError("");
     } catch (err) {

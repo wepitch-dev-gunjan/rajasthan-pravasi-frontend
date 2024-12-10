@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Namaste from "../../assets/namaste.png";
+import Namaste from "../../assets/khamma-ghani-2.png";
 import Snackbar from "@mui/material/Snackbar";
 import Alert from "@mui/material/Alert";
 import "./style.scss";

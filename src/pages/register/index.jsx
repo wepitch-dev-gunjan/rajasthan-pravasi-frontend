@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Namaste from "../../assets/namaste.png";
+import Snackbar from "@mui/material/Snackbar";
+import Alert from "@mui/material/Alert";
 import "./style.scss";
+import { Widgets } from "@mui/icons-material";
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -19,6 +22,11 @@ const Register = () => {
   const [currentStep, setCurrentStep] = useState(1);
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
+  const [snackbar, setSnackbar] = useState({
+    open: false,
+    message: "",
+    severity: "error",
+  });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -56,7 +64,12 @@ const Register = () => {
       setMessage(response.data.message);
       setError("");
     } catch (err) {
-      setError(err.response?.data?.message || "Something went wrong");
+      setSnackbar({
+        open: true,
+        message: err.response?.data?.message || "Something went wrong",
+        severity: "error",
+      });
+      // setError(err.response?.data?.message || "Something went wrong");
     }
   };
 
@@ -296,6 +309,10 @@ const Register = () => {
     }
   };
 
+  const handleSnackbarClose = () => {
+    setSnackbar((prev) => ({...prev, open: false}));
+  }
+
   return (
     <div className="registerContainer">
       <div className="registerContainerBox">
@@ -340,6 +357,19 @@ const Register = () => {
           <img className="registerBoxRightImage" src={Namaste} alt="" />
         </div>
       </div>
+
+      <Snackbar
+        open={snackbar.open}
+        autoHideDuration={6000}
+        onClose={handleSnackbarClose}
+        anchorOrigin={{ vertical: "top", horizontal: "center" }}
+      >
+        <Alert
+        onClose={handleSnackbarClose} severity={Snackbar.severity} sx={{ width: "100%" }}
+        >
+          {snackbar.message}
+        </Alert>
+      </Snackbar>
     </div>
   );
 };
